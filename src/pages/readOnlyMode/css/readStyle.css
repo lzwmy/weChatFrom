@@ -1,0 +1,158 @@
+/**
+ * 移动端 报告阅读模式 css 样式
+ */
+
+/** 公共样式 **/
+.read_only_mode .table-view-cell .mint-cell-wrapper  .addColor {
+  color: #00BAE6;
+}
+
+
+/** 数值类型 **/
+.read_only_mode  .NUMBER_INPUT{
+  justify-content: space-between !important;
+}
+.read_only_mode  .NUMBER_INPUT .number_input {
+  font-size: 14px;
+  color: #666666;
+}
+
+/** 单选框 **/
+.read_only_mode .SINGLE_COMBOX {
+  justify-content: space-between !important;
+}
+.read_only_mode .SINGLE_COMBOX .SINGLE_COMBOX_box {
+  font-size: 14px;
+  color: #666666;
+}
+
+/** 多选框 **/
+.read_only_mode .CHECKBOX {
+  justify-content: space-between;
+  min-height: auto;
+}
+.read_only_mode .CHECKBOX .CHECKBOX_box {
+  padding-top: 5px;
+}
+.read_only_mode .CHECKBOX .CHECKBOX_box span{
+  color: #666666;
+}
+/** 单选框 **/
+.read_only_mode .RADIO_BUTTON{
+  justify-content: space-between;
+  min-height: auto;
+}
+.read_only_mode .RADIO_BUTTON .RADIO_BUTTON_box{
+  font-size: 14px;
+  color: #666666;
+}
+
+/** 级联 **/
+.read_only_mode .CASCADE {
+  justify-content: space-between;
+}
+.read_only_mode .CASCADE .cascade_box>span{
+  text-align:right;
+}
+
+/** 上传 **/
+.read_only_mode .FILE_UPLOAD{
+  justify-content:space-between;
+  padding-right: 0;
+}
+.read_only_mode .empty_left {
+  justify-content: flex-start;
+}
+.read_only_mode .FILE_UPLOAD .empty_right {
+  text-align: right;
+  font-size: 14px;
+  color: #666666;
+  padding-right: 0;
+}
+.read_only_mode .FILE_UPLOAD .empty_right li{
+  margin-right: 2px;
+}
+
+/** 单行 **/
+.read_only_mode .SINGLE_INPUT{
+  justify-content: space-between;
+}
+.read_only_mode .SINGLE_INPUT .SINGLE_INPUT_box{
+  font-size: 14px;
+  color: #666666;
+ }
+
+/** 多行 **/
+.read_only_mode .MULTI_INPUT {
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+ }
+.read_only_mode .MULTI_INPUT .MULTI_INPUT-box {
+  font-size: 14px;
+  color: #666666;
+}
+
+/** 评分 **/
+.read_only_mode .SCORE{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.read_only_mode .SCORE .SCORE_box .mint-button--primary.is-plain{
+  color: #00BAE6;
+  border-color: #00BAE6;
+}
+/** 日期 时间**/
+.read_only_mode .display_date-time-box .date-time-item{
+  text-align: right;
+}
+
+/** 日期 **/
+.read_only_mode .display_Date .DATE_box {
+  text-align: right;
+}
+
+/** 多选下拉 **/
+
+.read_only_mode .MULTI_COMBOX {
+  justify-content: space-between;
+  align-items: center;
+}
+.read_only_mode .MULTI_COMBOX .MULTI_COMBOX_box {
+  font-size: 14px;
+  color: #666666;
+}
+
+/** 集合 **/
+.read_only_mode .GATHER .GATHER_title{
+  justify-content: space-between;
+}
+/** 集合 -- 单选框 **/
+.read_only_mode .GATHER .RADIO_BUTTON{
+  width: 100%;
+}
+/** 集合 -- 图片上传**/
+.read_only_mode .GATHER .FILE_UPLOAD{
+  justify-content:space-between;
+}
+/** 集合 -- 多选框 **/
+.read_only_mode .GATHER .CHECKBOX {
+  width: 100%;
+}
+/** 集合 -- 多行 **/
+.read_only_mode .GATHER .MULTI_INPUT{
+  width: 100%;
+}
+.read_only_mode .GATHER .MULTI_INPUT-box{
+  padding-top: 0;
+}
+
+/** 集合 -- 日期 **/
+.read_only_mode .GATHER .DATE_BTN {
+  text-align: right;
+}
+/** 集合 -- 日期时间 **/
+.read_only_mode .GATHER .date-time-input {
+  text-align: right;
+}
